@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {  
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.4rem;
+}
+
+a:hover {
+    color: rgb(181, 179, 187);
+}
+
+
+/*RESOLUTION 1920*/
+
+/*HEADER*/
+
+header {
+    padding: 0.5rem 3rem;
+    width: 100%;
+    height: 4.7rem;
+    position:fixed;
+    top: 0;
+    background-color:#0c0c0c;
+}
+
+.navbar {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    
+}
+
+.navbar .logo {
+    display: flex;
+}
+
+.navbar .logo h1 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 1.5rem;  
+}
+
+.navbar .toggle_btn {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*DROPDOWN MENU*/
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 110px;
+    height: 0;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: heigth 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+}
+
+.dropdown_menu.open {
+    height: 280px;
+}
+
+.dropdown_menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown_menu li a {
+    color:#fff;
+    font-weight: 700; 
+}
+
+.dropdown_menu li a:hover {
+    color: rgb(181, 179, 187);
+}
+
+.dropdown_menu {
+    display: block;
+}
+
+
+/*CONTENT*/
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner picture source {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;  
+}
+
+
+
+/*ABOUT*/
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    
+       
+}
+
+.sobre-mim h1{
+    font-size: 30px;
+    font-weight: 400px;
+    margin: 80px 30px 10px 30px;
+    
+}
+
+.sobre-mim-card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 20px 20px 0px 20px;
+    padding: 10px;
+    border: 3px solid #804E33;
+    border-radius: 25px;
+}
+
+.sobre-mim-card p {
+    font-size: 25px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.tecnologias-texto h1{
+    font-size: 30px;
+    font-weight: 400px;
+    margin: 80px 30px 10px 30px;
+      
+}
+
+.tecnologias-card {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 20px 20px 0px 20px;
+    border: 3px solid #804E33;
+    border-radius: 25px;
+    
+}
+
+.tecnologias-card-icones {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;  
+}
+
+.tecnologias-card-icones img {
+    display: flex;
+    height: 90px;
+    padding: 10px; 
+    
+}
+
+
+/*Conteúdo-Projetos*/
+
+.meus-projetos{
+    display: flex;
+    flex-direction: column;
+}
+
+.meus-projetos-texto h1{
+    font-size: 30px;
+    font-weight: 400px;
+    margin: 80px 30px 10px 30px;
+}
+
+.meus-projetos-secao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    border: 2px solid #804E33;
+    border-radius: 30px;
+    margin-bottom: 10px;
+   
+}
+
+.meus-projetos-card {
+    display:flex;
+    align-items: center;    
+    margin: 20px 20px 20px 20px;
+    padding: 15px;
+    height: 580px;
+    width: 350px;
+    border: 2px solid #804E33;
+    border-radius: 15px;
+    color: #ffff; 
+    
+}
+
+.meus-projetos-card-texto { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+   
+}
+
+.meus-projetos-card-texto h2 { 
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.meus-projetos-card-img {
+    display: flex;
+    height: 100%x;
+    width: 100%;
+    border: 2px solid #804E33;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.meus-projetos-card-texto p {
+    font-size: 14px; 
+    padding: 20px; 
+    margin-bottom: 5px;
+}
+
+.meus-projetos-card-botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly; 
+    padding-top: 5px; 
+}
+
+.meus-projetos-card-botoes button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ac7554;
+    color: #ffff;
+    width: 90px;
+    height: 35px;
+    padding: 5px;
+    border: 2px solid #804E33;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/*Rodapé*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 20px 0px 20px;  
+}
+
+.meus-contatos {
+    display: flex;
+    flex-direction: column;
+}
+
+   
+.meus-contatos-texto h1{
+    display: flex;
+    font-size: 30px;
+    font-weight: 400px;
+    margin: 10px 30px 10px 30px;
+    color: #ffff;
+    margin: 80px 30px 0px 30px;
+    
+}
+
+
+.meus-contatos-topo{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+    
+    
+}
+
+.meus-contatos-topo a {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-right: 60px;
+}
+
+.meus-contatos-topo a img{
+    height: 30px;
+    
+}
+
+.meus-contatos-topo a h1{
+    font-size: 10px;
+    font-weight: 400px;
+    padding-top: 5px;
+    color: #ffff;
+    
+}
+
+
+.meus-contatos-card {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 20px 20px 0px 20px;;
+    border: 3px solid #804E33;
+    border-radius: 25px;
+    
+}
+
+.meus-contatos-card-icones {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;  
+}
+
+.meus-contatos-card-icones img {
+    display: flex;
+    height: 90px;
+    padding: 10px; 
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

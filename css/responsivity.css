@@ -1,0 +1,186 @@
+/*BREAKPOINT BOX MENU*/
+@media (max-width: 992px) {
+    .navbar .links,
+    .navbar .action_btn {
+        display: none;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+    }
+
+    .dropdown_menu {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    main {
+        margin-top: 50px;
+    }
+
+   
+    footer {
+        margin: 20px 20px 20px 20px;  
+    } 
+
+}
+
+
+
+@media screen and (max-width: 765px) {
+
+
+    header {
+        margin: 0;
+        padding: 0;  
+        height: 3.2rem;         
+    }    
+
+    .navbar {
+        padding: 10px 20px 0px 15px; 
+          
+    }
+
+    .navbar .logo h1 {
+        font-size: 23px;    
+    }
+
+    .dropdown_menu.open {
+        position: absolute;
+        top: 80px;
+        right: 0.5rem;
+        left: 0.5rem;
+        
+    }
+
+    .dropdown_menu.open {
+        height: 290px;
+    }
+
+
+    main {
+        margin-top: 27px;
+    }
+
+    .banner {
+        display: flex; 
+    }
+        
+    .banner img {
+        width: 100%;   
+    }
+    
+    .sobre-mim h1{
+        font-size: 20px;
+        font-weight: 400px;
+        margin-top: 60px;
+    }
+
+    .sobre-mim-card {
+        margin-top: 20px; 
+    }
+
+    .sobre-mim-card p {
+        font-size: 15px;
+        font-weight: 100;
+        padding: 5px;
+        
+    }
+
+  
+    .tecnologias-texto h1{
+        font-size: 20px;
+        font-weight: 400px;
+        margin-top: 60px; 
+    }
+
+     .tecnologias-card {
+        margin-top: 20px; 
+        
+    }
+
+    .tecnologias-card-icones img {
+        display: flex;
+        height: 60px;
+        padding: 5px; 
+    }
+
+
+    .meus-projetos {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .meus-projetos-texto h1{
+        font-size: 20px;
+        font-weight: 400px;
+        margin-top: 60px;
+       
+    }
+
+    .meus-projetos-secao {
+        gap: 20px;  
+        margin-top: 20px;     
+    }
+
+    .meus-projetos-card {
+        margin: 1vh;
+        padding: 15px;
+        height: 580px;
+        width: 350px;
+        
+    }
+
+    .meus-projetos-card-texto h2 { 
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .meus-projetos-card-texto p {
+        font-size: 12px; 
+        padding: 20px; 
+        margin-bottom: 5px;
+    }
+
+
+    footer {
+        margin: 0  20px 20px 20px;
+    }
+
+
+    .meus-contatos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .meus-contatos-texto h1{
+        font-size: 20px;
+        font-weight: 400px;
+        margin-top: 40px;
+        
+    }
+
+    .meus-contatos-topo a {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        margin-right: 40px;
+        margin-bottom: 0;
+        
+    }
+
+    .meus-contatos-card {
+        margin-top: 15px;
+    }
+
+    .meus-contatos-card-icones img {
+        display: flex;
+        height: 70px;
+        padding: 10px; 
+    }
+
+}
