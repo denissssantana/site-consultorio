@@ -13,7 +13,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     color: #ffff;
-    background-color: #333;
+    background-color: #0D2401;
 }
 
 .container {
@@ -48,7 +48,7 @@ header {
     height: 4.7rem;
     position:fixed;
     top: 0;
-    background-color:#0c0c0c;
+    background-color:#105003;
 }
 
 .navbar {
