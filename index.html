@@ -11,21 +11,18 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsivity.css">
-    <title></title>Meu Portifólio</title>
+    <title>Dênis Santana Nutri</title>
 </head>
 
 <body id="topo">
     <div  class="container">
         <header>
             <div class="navbar">
-                <div class="logo">
-                    <h1>Meu Portifólio</h1>
-                </div>
                 <ul class="links">
                     <li><a href="#topo">Início</a></li>
                     <li><a href="#sobre">Formação</a></li>
-                    <li><a href="#tecnologias">Áreas de atuação</a></li>
-                    <li><a href="#projetos">Contato</a></li>
+                    <li><a href="#projetos">Áreas de atuação</a></li>
+                    <li><a href="#contatos">Contato</a></li>
                 </ul>
                 <div class="toggle_btn">
                     <i class="fa-solid fa-bars"></i>
@@ -34,22 +31,27 @@
             <div class="dropdown_menu">
                 <li><a href="#topo">Início</a></li>
                 <li><a href="#sobre">Formação</a></li>
-                <li><a href="#tecnologias">Áreas de atuação</a></li>
-                <li><a href="#projetos">Contato</a></li>
+                <li><a href="#projetos">Áreas de atuação</a></li>
+                <li><a href="#contatos">Contato</a></li>
             </div>
         </header>
 
         <main>
-            <picture class="inicio">
-                <source media="(max-width:800px)" srcset="img/banner-320.png">
-                <img src="img/nutri-sfundo-2.png" alt="logo">
-                <h1>Dênis Santana</h1>
-                <h2>Nutricioinista</h2>
-                <img src="img/denis4.png" alt="logo">
-                <p>Nutricioinista desde 2010, já atuei nas mais diversas áreas da Nutrição, como por exemplo: Consultários, Gestão de produção, Gestão da qualidade de alimentos, Consultaria em serviços de alimentação e Docência em cursos técnicos.</p>
-            </picture>
+            <div class="inicio">
+                <div class="logo">
+                    <img src="img/nutri-sfundo-2.png" alt="logo">
+                    <div class="assinatura">
+                        <img src="img/assinaturaB.png" alt="">
+                        <h2>Nutricionista</h2>
+                    </div>    
+                </div>  
+                <div class="apresentacao">
+                    <img src="img/denis4.png" alt="logo">
+                    <p>Nutricioinista desde 2010, já atuei nas mais diversas áreas da Nutrição, como por exemplo: Consultários, Gestão de produção, Gestão da qualidade de alimentos, Consultaria em serviços de alimentação e Docência em cursos técnicos.</p>
+                </div>
+            </div>
             
-            <section class="sobre">
+            <div class="sobre">
                 <div id="sobre" class="sobre-mim">
                     <h1>Formação:</h1>
                 </div>
@@ -65,79 +67,50 @@
                         Docência em cursos técnicos.
                         UPE POLI (UNIVERSIDADE DE PERNAMBUCO)</p>
                 </div>
-            </section>
-
-            <section class="sobre">
-                <div id="sobre" class="sobre-mim">
-                    <h1>Sobre mim:</h1>
-                </div>
-                <div class="sobre-mim-card">
-                    <p>Nutricioinista desde 2010, já atuei
-                        nas mais diversas áreas da Nutrição,
-                        como por exemplo: Consultários,
-                        Gestão de produção, Gestão da
-                        qualidade de alimentos, Consultaria
-                        em serviços de alimentação e
-                        Docência em cursos técnicos</p>
-                </div>
-            </section>
+            </div>
 
             <section id="projetos" class="meus-projetos">
                 <div class="meus-projetos-texto">
-                    <h1 id="projetos">Meus projetos:</h1>
+                    <h1 id="projetos">Áreas de atuação:</h1>
                 </div>
                 <div class="meus-projetos-secao">
                     <div class="meus-projetos-card">
                         <div class="meus-projetos-card-texto">
-                            <h2>Meu Portifólio</h2>
-                            <img class="meus-projetos-card-img" src="./img/meu-portifolio.png" />
+                            <h2>Comorbidades</h2>
+                            <img class="meus-projetos-card-img" src="./img/card1.png" />
                             <p>Site criado com o intuito de fazer uma breve apresentação sobre mim e dar acesso aos diversos projetos que venho deenvolvendo até o momento fazendo uso de várias tecnologias.</p>
-                            <h3>Tecnologias utilizadas:</h3>
-                                <p>Html - Css - Js</p>
-                            <div class="meus-projetos-card-botoes">
-                                <a href="https://github.com/denissssantana/portifolio" target="_blank"><button id="botao" type="button">Github</button></a> 
-                            </div>
                         </div>
                     </div>
                     <div class="meus-projetos-card">
                         <div class="meus-projetos-card-texto ">
-                            <h2>Sis-Bari</h2>
-                            <img class="meus-projetos-card-img" src="./img/sisbari.png" />
+                            <h2>Báriátrica</h2>
+                            <img class="meus-projetos-card-img" src="./img/card2.png" />
                             <p>Sistema desenvolvido com o objetivo de orientar o paciente sobre as etapas da cirurgia Bariátrica, exibir as dietas, sugerir receitas e apresentar informações sobre medicações e suplementos</p>
-                            <h3>Tecnologias utilizadas:</h3>
-                                <p>Html - Css - Js</p>
-                            <div class="meus-projetos-card-botoes">
-                                <a href="https://bariatrica-dietas.vercel.app/" target="_blank"><button id="botao" type="button">Visualizar</button></a>
-                                <a href="https://github.com/denissssantana/bariatrica_dietas" target="_blank"><button id="botao" type="button">Github</button></a> 
-                            </div>
                         </div>
                     </div>
                     <div class="meus-projetos-card">
                         <div class="meus-projetos-card-texto ">
-                            <h2>Novo Projeto</h2>
-                            <img class="meus-projetos-card-img" src="./img/em-desenvolvimento.png" />
+                            <h2>Esportiva</h2>
+                            <img class="meus-projetos-card-img" src="./img/card3.png" />
                             <br><br>
                             <p>Sistema em desenvolvimento</p><br><br>
-                            <h3>Tecnologias utilizadas:</h3>
-                                <p>Tecnologias</p>
-                            <div class="meus-projetos-card-botoes">
-                                <a><button id="botao" type="button">Visualizar</button></a>
-                                <a><button id="botao" type="button">Github</button></a> 
-                            </div>
+                            
+                            
                         </div>
                     </div>
                 </div>
 
             </section>
         </main>
+
         <footer>
             <div id="contatos" class="meus-contatos">
                 <div class="meus-contatos-texto">
-                    <h1>Meus contatos:</h1>
+                    <h1>Contatos:</h1>
                 </div>
                 <div class="meus-contatos-topo">
                     <a href="#topo">
-                        <img id="topo" src="./img/icons/circle-up-b.png" alt="topo">
+                        <img id="topo" src="./img/topB.png" alt="topo">
                         <h1>Voltar ao topo</h1>
                     </a>
                 </div>
@@ -146,15 +119,15 @@
                 <div class="meus-contatos-card-icones">
                     <div>
                         <a href="https://www.linkedin.com/in/d%C3%AAnis-santana-169b5659/" target="_blank" rel="external"><img
-                                id="github" src="./img/icons/linkedinIcon2.png" alt="githubIcon"></a>
+                                id="github" src="./img/icons/linkedinIcon2.png" alt="whatsapp"></a>
                     </div>
                     <div>
                         <a href="./.doc/Currículo Denis Santana 2024.pdf" target="_blank" rel="external"><img id="github"
-                                src="./img/icons/curriculoIcon2.png" alt="githubIcon"></a>
+                                src="./img/icons/curriculoIcon2.png" alt="instagram"></a>
                     </div>
                     <div>
                         <a href="https://github.com/denissssantana" target="_blank" rel="external"><img id="github"
-                                src="./img/icons/githubIcon2.png" alt="githubIcon"></a>
+                                src="./img/icons/githubIcon2.png" alt="curriculo"></a>
                     </div>
                 </div>
             </div>
