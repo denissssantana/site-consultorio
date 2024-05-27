@@ -133,7 +133,7 @@ main {
 }
 
 
-div .inicio {
+.inicio {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,33 +145,69 @@ div .inicio {
     background-size: cover;
     
     
-}
-
-div .logo {
+}.logo {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 70px;
+    justify-content: left;
+    margin-top: 60px;
+    width: 100%;
+    gap: 50px;
+    margin-left: 100px;
+    
+    
 }
 
-div .logo img {
-    height: 200px;
+.logo img {
+    height: 250px;
+    
 }
 
-div .logo .assinatura {
+.assinatura {
     display: flex;
     flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.assinatura img {
+    height: 200px;
+    font-weight: 100;
+    
+}
+
+.assinatura h2 {
+    font-size: 25px;
+    
 }
 
 .apresentacao {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content:space-around;
+    width: 100%;
+    padding-bottom: 2vh;
+    padding-left: 25vh;
+    margin-top: 8vh;
+    
+    
+    
     
 }
 
 .apresentacao img {
-    height: 300px;
+    height: 450px;
+    
+    
+    
+}
+
+.apresentacao p {
+    font-size: 35px;
+    margin: 10vh;
+    
+    
+    
 }
 
 
