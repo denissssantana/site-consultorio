@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 
-html {  
-    scroll-behavior: smooth;
+html {
+    scroll-behavior:smooth;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 li {
@@ -49,23 +49,23 @@ header {
     position:fixed;
     top: 0;
     background-color: #0D2401;
-    
+
 }
 
 .navbar {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content:end;  
+    justify-content:end;
 }
 
 .navbar .links {
     display: flex;
-    gap: 1.5rem;  
+    gap: 1.5rem;
 }
 
 .navbar .links a {
-    font-size: 18px;  
+    font-size: 18px;
 }
 
 .navbar .toggle_btn {
@@ -89,7 +89,7 @@ header {
     border-radius: 10px;
     overflow: hidden;
     transition: heigth 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    
+
 }
 
 .dropdown_menu.open {
@@ -105,7 +105,7 @@ header {
 
 .dropdown_menu li a {
     color:#fff;
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 .dropdown_menu li a:hover {
@@ -117,7 +117,7 @@ header {
 }
 
 
-/*CONTENT*/
+/*CONNTEÚDO*/
 
 main {
     width: 100%;
@@ -125,6 +125,8 @@ main {
     flex-direction: column;
 }
 
+
+/*APRESENTAÇÃO*/
 
 .inicio {
     display: flex;
@@ -135,24 +137,24 @@ main {
     height: auto;
     background-image:url(/img/banner3.png);
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    justify-content:center;
-    margin-top: 100px;
+    justify-content:left;
+    margin-top: 80px;
+    padding-left: 130px;
     width: 100%;
     gap: 50px;
-    
-    
-    
+
+
 }
 
 .logo img {
     height: 150px;
-    
+
 }
 
 
@@ -161,18 +163,17 @@ main {
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    
 }
 
 .assinatura img {
     height: 130px;
-    
-    
+
+
 }
 
 .assinatura h2 {
     font-size: 15px;
-    
+
 }
 
 
@@ -183,15 +184,16 @@ main {
     width: 100%;
     padding-bottom: 2vh;
     padding-left: 10vh;
-    padding: 0 100px;
-    margin: 5vh 20vh 10vh 20vh;
+    padding: 0 180px;
+    margin: 5vh 80vh 10vh 80vh;
     gap: 7vh;
-    
-     
+
+
+
 }
 
 .apresentacao img {
-    height: 300px; 
+    height: 300px;
     filter: drop-shadow(5px 5px 4px #044901);
     border-radius: 60px;
 }
@@ -203,29 +205,30 @@ main {
 
 
 
-/*ABOUT*/
+/*SOBRE*/
 
 .sobre {
     display: flex;
     flex-direction: column;
     
+
 }
 
 .sobre-texto h1{
     font-size: 30px;
     font-weight: 400px;
     margin: 80px 30px 10px 30px;
-    
+
 }
 
 .sobre-card {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: center;
     text-align: center;
     width: auto;
     height: auto;
     margin: 20px 20px 0px 20px;
-    padding: 20px 40px;
+    padding: 20px 20px;
     border-radius: 25px;
 }
 
@@ -234,8 +237,8 @@ main {
     justify-content:space-evenly;
     width: 100%;
 }
-   
-  .sobre-card-box .nassau { 
+
+  .sobre-card-box .nassau {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,17 +246,18 @@ main {
     width: auto;
     height: auto;
     padding: .5em;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: all ease 0.3s;
+
   }
 
-  .sobre-card-box .nassau .logo {
+  .sobre-card-box .nassau .imagem {
     display: flex;
-    align-items:start;
+    align-items:center;
     justify-content:center;
     margin-top: 0;
     width: 100%;
-  } 
+  }
 
   .sobre-card-box .nassau img {
     height: 15vh;
@@ -265,18 +269,18 @@ main {
     justify-content: center;
     width: 12em;
   }
- 
+
   .sobre-card-box .nassau p {
     margin: 0.7em 1em 0;
     font-size: .9em;
-    font-weight: 100; 
+    font-weight: 100;
   }
 
   .sobre-card-box .nassau:hover {
     box-shadow: 0px 0px 20px 1px #ffbb763f;
   }
 
-  .sobre-card-box .poli { 
+  .sobre-card-box .poli {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,17 +288,17 @@ main {
     width: auto;
     height: auto;
     padding: .5em;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: all ease 0.3s;
   }
 
-  .sobre-card-box .poli .logo {
+  .sobre-card-box .poli .imagem {
     display: flex;
     align-items:start;
     justify-content:center;
     margin-top: 0;
     width: 100%;
-  } 
+  }
 
   .sobre-card-box .poli img {
     height: 15vh;
@@ -306,38 +310,34 @@ main {
     justify-content: center;
     width: 12em;
   }
- 
+
   .sobre-card-box .poli p {
     margin: 0.7em 1em 0;
     font-size: .9em;
-    font-weight: 100; 
+    font-weight: 100;
   }
-  
+
   .sobre-card-box .poli:hover {
     box-shadow: 0px 0px 20px 1px #ffbb763f;
   }
-  
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 /* SECTION AREAS */
 
+.areas {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
 .areas-texto h1{
     font-size: 30px;
     font-weight: 400px;
-    margin: 80px 30px 10px 30px;
-      
+    margin: 80px 0px 0px 30px;
+
+
 }
 
   .areas-card {
@@ -346,20 +346,22 @@ main {
     text-align: center;
     width: auto;
     height: auto;
-    margin: 20px 20px 0px 20px;
+    margin: 0px 0px 0px 0px;
     padding: 20px 40px;
     border-radius: 25px;
-    
+
+
 }
 
   .areas-card-box {
     display:flex;
     justify-content:space-evenly;
     width: 100%;
-    
+
+
 }
-   
-  .areas-card-box .box { 
+
+  .areas-card-box .box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -367,18 +369,18 @@ main {
     width: auto;
     height: auto;
     padding: .5em;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: all ease 0.3s;
   }
 
-  .areas-card-box .box .logo {
+  .areas-card-box .box .imagem {
     display: flex;
     align-items:start;
     justify-content:center;
     margin-top: 0;
     margin-bottom: 5px;
     width: 100%;
-  } 
+  }
 
   .areas-card-box .box img {
     height: 45vh;
@@ -390,11 +392,11 @@ main {
     justify-content: center;
     width: 12em;
   }
- 
+
   .areas-card-box .box p {
     margin: 0.7em 1em 0;
     font-size: .9em;
-    font-weight: 100; 
+    font-weight: 100;
   }
 
   .areas-card-box .box:hover {
@@ -416,7 +418,7 @@ main {
   }
 
   .acceptButton {
-    width: 80px;
+    width: 90px;
     height: 30px;
     background-color: #0d4102;
     transition-duration: .2s;
@@ -425,13 +427,13 @@ main {
     cursor: pointer;
     font-weight: 600;
     border-radius: 20px;
-    box-shadow: 0 4px 6px -1px #a0daa3, 0 2px 4px -1px #4de44d;
+    box-shadow: 0 4px 6px -1px #d9daa0, 0 2px 4px -1px #c8e44d;
     transition: all .6s ease;
     }
 
   .acceptButton:hover {
-    background-color: #73ff8a;
-    box-shadow: 0 10px 15px -3px #88f37e, 0 4px 6px -2px #7ef392;
+    background-color: #2a6d03;
+    box-shadow: 0 10px 15px -3px #caf37e, 0 4px 6px -2px #7ef392;
     transition-duration: .2s;
     }
 
@@ -472,13 +474,13 @@ footer {
 .meus-contatos-topo a {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     margin-right: 60px;
 }
 
 .meus-contatos-topo a img{
     height: 30px;
-    
+
 }
 
 .meus-contatos-topo a p{
@@ -497,14 +499,14 @@ footer {
     display: flex;
     justify-content:space-evenly;
     width: 100%;
-    margin-bottom: 4.5vh;   
+    margin-bottom: 4.5vh;
 }
 
 
 .meus-contatos-card-social-zap a {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
 .meus-contatos-card-social-zap a img{
@@ -523,7 +525,7 @@ footer {
 .meus-contatos-card-social-insta a {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
 .meus-contatos-card-social-insta a img{
@@ -542,7 +544,7 @@ footer {
 .meus-contatos-card-social-curriculo a {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
 .meus-contatos-card-social-curriculo a img{
@@ -556,7 +558,6 @@ footer {
     padding-top: 5px;
     color: #ffff;
 }
-       
 
 
 
@@ -567,7 +568,8 @@ footer {
 
 
 
-  
+
+
 
 
 
