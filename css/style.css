@@ -48,7 +48,7 @@ header {
     width: 100%;
     position:fixed;
     top: 0;
-    background-color: rgb(22, 41, 2);
+    background-color: #0D2401;
     
 }
 
@@ -211,64 +211,112 @@ main {
     
 }
 
-.sobre-mim h1{
+.sobre-texto h1{
     font-size: 30px;
     font-weight: 400px;
     margin: 80px 30px 10px 30px;
     
 }
 
-.sobre-mim-card {
+.sobre-card {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     text-align: center;
     width: auto;
     height: auto;
     margin: 20px 20px 0px 20px;
-    padding: 10px;
-    border: 3px solid #804E33;
+    padding: 20px 40px;
     border-radius: 25px;
-    gap: 5vh;
-    background-color: blue;
 }
 
-.sobre-mim-card-nassau {
+.sobre-card-box {
+    display:flex;
+    justify-content:space-evenly;
+    width: 100%;
+}
+   
+  .sobre-card-box .nassau { 
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    gap: 10vh;
-    background-color: rgb(46, 46, 129);
-}
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: .5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    transition: all ease 0.3s;
+  }
 
-.sobre-mim-card-nassau img {
-    height: 100px;
-}
-
-.sobre-mim-card-nassau p {
-    font-size: 25px;
-    font-weight: 100;
-    
-}
-
-.sobre-mim-card-poli {
+  .sobre-card-box .nassau .logo {
     display: flex;
-    flex-direction: column;
+    align-items:start;
+    justify-content:center;
+    margin-top: 0;
+    width: 100%;
+  } 
+
+  .sobre-card-box .nassau img {
+    height: 15vh;
+  }
+
+  .sobre-card-box .nassau .texto {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    text-align: center;
-    gap: 10vh;
-    background-color: rgb(46, 46, 129);
-}
+    width: 12em;
+  }
+ 
+  .sobre-card-box .nassau p {
+    margin: 0.7em 1em 0;
+    font-size: .9em;
+    font-weight: 100; 
+  }
 
-.sobre-mim-card-poli img {
-    height: 100px;
-}
+  .sobre-card-box .nassau:hover {
+    box-shadow: 0px 0px 20px 1px #ffbb763f;
+  }
 
-.sobre-mim-card-poli p {
-    font-size: 25px;
-    font-weight: 100;
-    
-}
+  .sobre-card-box .poli { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: .5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    transition: all ease 0.3s;
+  }
+
+  .sobre-card-box .poli .logo {
+    display: flex;
+    align-items:start;
+    justify-content:center;
+    margin-top: 0;
+    width: 100%;
+  } 
+
+  .sobre-card-box .poli img {
+    height: 15vh;
+  }
+
+  .sobre-card-box .poli .texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12em;
+  }
+ 
+  .sobre-card-box .poli p {
+    margin: 0.7em 1em 0;
+    font-size: .9em;
+    font-weight: 100; 
+  }
+  
+  .sobre-card-box .poli:hover {
+    box-shadow: 0px 0px 20px 1px #ffbb763f;
+  }
+  
 
 
 
@@ -280,133 +328,115 @@ main {
 
 
 
-.tecnologias-texto h1{
+
+
+
+/* SECTION AREAS */
+
+.areas-texto h1{
     font-size: 30px;
     font-weight: 400px;
     margin: 80px 30px 10px 30px;
       
 }
 
-.tecnologias-card {
+  .areas-card {
     display: flex;
-    align-items: center;
+    justify-content:space-evenly;
+    text-align: center;
     width: auto;
     height: auto;
     margin: 20px 20px 0px 20px;
-    border: 3px solid #804E33;
+    padding: 20px 40px;
     border-radius: 25px;
     
 }
 
-.tecnologias-card-icones {
+  .areas-card-box {
     display:flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 100%;  
-}
-
-.tecnologias-card-icones img {
-    display: flex;
-    height: 90px;
-    padding: 10px; 
+    justify-content:space-evenly;
+    width: 100%;
     
 }
-
-
-/*Conteúdo-Projetos*/
-
-.meus-projetos{
-    display: flex;
-    flex-direction: column;
-}
-
-.meus-projetos-texto h1{
-    font-size: 30px;
-    font-weight: 400px;
-    margin: 80px 30px 10px 30px;
-}
-
-.meus-projetos-secao {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    align-items: center;
-    width: auto;
-    height: auto;
-    margin: 20px 20px 20px 20px;
-    padding: 10px;
-    border: 2px solid #804E33;
-    border-radius: 30px;
-    margin-bottom: 10px;
    
-}
-
-.meus-projetos-card {
-    display:flex;
-    align-items: center;    
-    margin: 20px 20px 20px 20px;
-    padding: 15px;
-    height: 580px;
-    width: 350px;
-    border: 2px solid #804E33;
-    border-radius: 15px;
-    color: #ffff; 
-    
-}
-
-.meus-projetos-card-texto { 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    padding: 5px;
-   
-}
-
-.meus-projetos-card-texto h2 { 
-    font-size: 25px;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-.meus-projetos-card-img {
-    display: flex;
-    height: 100%x;
-    width: 100%;
-    border: 2px solid #804E33;
-    border-radius: 15px;
-    margin-bottom: 10px;
-}
-
-.meus-projetos-card-texto p {
-    font-size: 14px; 
-    padding: 20px; 
-    margin-bottom: 5px;
-}
-
-.meus-projetos-card-botoes {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly; 
-    padding-top: 5px; 
-}
-
-.meus-projetos-card-botoes button{
+  .areas-card-box .box { 
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ac7554;
-    color: #ffff;
-    width: 90px;
-    height: 35px;
-    padding: 5px;
-    border: 2px solid #804E33;
-    border-radius: 10px;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: .5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    transition: all ease 0.3s;
+  }
+
+  .areas-card-box .box .logo {
+    display: flex;
+    align-items:start;
+    justify-content:center;
+    margin-top: 0;
+    margin-bottom: 5px;
+    width: 100%;
+  } 
+
+  .areas-card-box .box img {
+    height: 45vh;
+  }
+
+  .areas-card-box .box .texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12em;
+  }
+ 
+  .areas-card-box .box p {
+    margin: 0.7em 1em 0;
+    font-size: .9em;
+    font-weight: 100; 
+  }
+
+  .areas-card-box .box:hover {
+    box-shadow: 0px 0px 20px 1px #ffbb763f;
+  }
+
+  .botao{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+  }
+
+  .acceptButton {
+    width: 80px;
+    height: 30px;
+    background-color: #0d4102;
+    transition-duration: .2s;
+    border: none;
+    color: rgb(241, 241, 241);
     cursor: pointer;
-}
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px -1px #a0daa3, 0 2px 4px -1px #4de44d;
+    transition: all .6s ease;
+    }
+
+  .acceptButton:hover {
+    background-color: #73ff8a;
+    box-shadow: 0 10px 15px -3px #88f37e, 0 4px 6px -2px #7ef392;
+    transition-duration: .2s;
+    }
 
 
-/*Rodapé*/
+/*FOOTER*/
 
 footer {
     display: flex;
