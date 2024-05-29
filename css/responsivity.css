@@ -11,170 +11,248 @@
 
     .dropdown_menu {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
     }
-
-    main {
-        margin-top: 50px;
-    }
-
-   
-    footer {
-        margin: 20px 20px 20px 20px;  
-    } 
 
 }
 
 
-
-@media screen and (max-width: 765px) {
+@media only screen and (min-width: 320px) and (max-width: 719px) {
 
 
     header {
+        display: flex;
+        justify-content: right;
         margin: 0;
-        padding: 0;  
-        height: 3.2rem;         
-    }    
+        padding: 0;
+        
+        
+    }   
 
     .navbar {
-        padding: 10px 20px 0px 15px; 
-          
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0px 10px;   
     }
 
-    .navbar .logo h1 {
-        font-size: 23px;    
+    .navbar .toggle_btn {
+        color: #fff;
+        font-size: 1.5rem;
+        cursor: pointer;
     }
+
+    
+
+    .dropdown_menu.open {
+        position: absolute;
+        align-items: center;
+        top: 45px;
+        right: 0.5rem;
+        left: 0.5rem;
+        height: 240px;
+    }
+
+
+    /*APRESENTAÇÃO*/
+
+    .inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+        
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        width: 100%;
+        margin-top: 50px;
+        padding: 0;
+        gap: 5px;
+        
+    }
+        
+    .logo img {
+        height: 70px;   
+    }
+
+    .assinatura {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .assinatura img {
+        height: 50px;
+
+    }
+
+    .assinatura h2 {
+        font-size: 9px;
+    }
+
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:center;
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        gap: 16px;
+        
+    }
+
+    .apresentacao img {
+        height: 180px;
+        filter: drop-shadow(5px 5px 4px #044901);
+        border-radius: 60px;
+    }
+    
+    .apresentacao p {
+        font-size: 12px;
+        text-align: center;       
+
+    }
+
+
+    /*SOBRE*/
+
+    .sobre-texto h1{
+        font-size: 20px;
+        font-weight: 400px;
+        margin: 50px 0px 10px 20px;
+        background-color: ;
+
+    }
+    
+
+
+
+
+
+
+
+      
+    
+        .tecnologias-texto h1{
+            font-size: 20px;
+            font-weight: 400px;
+            margin-top: 100px;   
+        }
+    
+        .tecnologias-card-icones img {
+            display: flex;
+            height: 70px;
+            padding: 10px; 
+            
+        }
+    
+        .meus-projetos-texto h1{
+            font-size: 20px;
+            font-weight: 400px;
+            margin-top: 100px; 
+            
+        }
+    
+        .meus-contatos-texto h1{
+            font-size: 20px;
+            font-weight: 400px;
+            margin-top: 100px; 
+        }
+    
+        .meus-contatos-card-icones img {
+            display: flex;
+            height: 70px;
+            padding: 10px; 
+        }
+
+}
+
+
+@media only screen and (min-width: 720px) and (max-width: 900px) {
+
+
+    header {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(46, 43, 226);
+        
+    }    
+    .navbar {
+        gap: 90px;
+        padding: 0px 10px; 
+        
+    }
+
 
     .dropdown_menu.open {
         position: absolute;
         top: 80px;
         right: 0.5rem;
         left: 0.5rem;
-        
     }
 
     .dropdown_menu.open {
         height: 290px;
     }
 
-
-    main {
-        margin-top: 27px;
-    }
-
     .banner {
-        display: flex; 
+        display: flex;
     }
-        
+
     .banner img {
-        width: 100%;   
+        width: 100%;  
     }
     
+
     .sobre-mim h1{
         font-size: 20px;
         font-weight: 400px;
-        margin-top: 60px;
-    }
-
-    .sobre-mim-card {
-        margin-top: 20px; 
+        margin-top: 100px;
+        text-align: center;
     }
 
     .sobre-mim-card p {
         font-size: 15px;
         font-weight: 100;
         padding: 5px;
+    }
+
+    .sobre-mim-card {
+        margin-top: 10px;
         
     }
 
-  
     .tecnologias-texto h1{
         font-size: 20px;
         font-weight: 400px;
-        margin-top: 60px; 
-    }
-
-     .tecnologias-card {
-        margin-top: 20px; 
-        
+        margin-top: 100px;   
     }
 
     .tecnologias-card-icones img {
         display: flex;
-        height: 60px;
-        padding: 5px; 
+        height: 70px;
+        padding: 10px; 
+        
     }
 
-
-    .meus-projetos {
-        display: flex;
-        flex-direction: column;
-    }
-    
     .meus-projetos-texto h1{
         font-size: 20px;
         font-weight: 400px;
-        margin-top: 60px;
-       
-    }
-
-    .meus-projetos-secao {
-        gap: 20px;  
-        margin-top: 20px;     
-    }
-
-    .meus-projetos-card {
-        margin: 1vh;
-        padding: 15px;
-        height: 580px;
-        width: 350px;
+        margin-top: 100px; 
         
     }
 
-    .meus-projetos-card-texto h2 { 
-        font-size: 20px;
-        margin-top: 0;
-        margin-bottom: 20px;
-    }
-
-    .meus-projetos-card-texto p {
-        font-size: 12px; 
-        padding: 20px; 
-        margin-bottom: 5px;
-    }
-
-
-    footer {
-        margin: 0  20px 20px 20px;
-    }
-
-
-    .meus-contatos {
-        display: flex;
-        flex-direction: column;
-    }
-
-    
     .meus-contatos-texto h1{
         font-size: 20px;
         font-weight: 400px;
-        margin-top: 40px;
-        
-    }
-
-    .meus-contatos-topo a {
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
-        margin-right: 40px;
-        margin-bottom: 0;
-        
-    }
-
-    .meus-contatos-card {
-        margin-top: 15px;
+        margin-top: 100px; 
     }
 
     .meus-contatos-card-icones img {

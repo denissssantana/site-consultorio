@@ -39,7 +39,8 @@ a:hover {
 }
 
 
-/*RESOLUTION 1920*/
+
+/*RESOLUÇÃO 1920*/
 
 /*HEADER*/
 
@@ -76,6 +77,7 @@ header {
 }
 
 
+
 /*DROPDOWN MENU*/
 .dropdown_menu {
     display: none;
@@ -89,7 +91,6 @@ header {
     border-radius: 10px;
     overflow: hidden;
     transition: heigth 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-
 }
 
 .dropdown_menu.open {
@@ -117,6 +118,7 @@ header {
 }
 
 
+
 /*CONNTEÚDO*/
 
 main {
@@ -124,6 +126,7 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 
 
 /*APRESENTAÇÃO*/
@@ -204,7 +207,6 @@ main {
 
 
 
-
 /*SOBRE*/
 
 .sobre {
@@ -238,7 +240,7 @@ main {
     width: 100%;
 }
 
-  .sobre-card-box .nassau {
+.sobre-card-box .nassau {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -251,7 +253,7 @@ main {
 
   }
 
-  .sobre-card-box .nassau .imagem {
+.sobre-card-box .nassau .imagem {
     display: flex;
     align-items:center;
     justify-content:center;
@@ -259,28 +261,28 @@ main {
     width: 100%;
   }
 
-  .sobre-card-box .nassau img {
+.sobre-card-box .nassau img {
     height: 15vh;
   }
 
-  .sobre-card-box .nassau .texto {
+.sobre-card-box .nassau .texto {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 12em;
   }
 
-  .sobre-card-box .nassau p {
+.sobre-card-box .nassau p {
     margin: 0.7em 1em 0;
     font-size: .9em;
     font-weight: 100;
   }
 
-  .sobre-card-box .nassau:hover {
+.sobre-card-box .nassau:hover {
     box-shadow: 0px 0px 20px 1px #ffbb763f;
   }
 
-  .sobre-card-box .poli {
+.sobre-card-box .poli {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,7 +294,7 @@ main {
     transition: all ease 0.3s;
   }
 
-  .sobre-card-box .poli .imagem {
+.sobre-card-box .poli .imagem {
     display: flex;
     align-items:start;
     justify-content:center;
@@ -300,24 +302,24 @@ main {
     width: 100%;
   }
 
-  .sobre-card-box .poli img {
+.sobre-card-box .poli img {
     height: 15vh;
   }
 
-  .sobre-card-box .poli .texto {
+.sobre-card-box .poli .texto {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 12em;
   }
 
-  .sobre-card-box .poli p {
+.sobre-card-box .poli p {
     margin: 0.7em 1em 0;
     font-size: .9em;
     font-weight: 100;
   }
 
-  .sobre-card-box .poli:hover {
+.sobre-card-box .poli:hover {
     box-shadow: 0px 0px 20px 1px #ffbb763f;
   }
 
@@ -353,7 +355,7 @@ main {
 
 }
 
-  .areas-card-box {
+.areas-card-box {
     display:flex;
     justify-content:space-evenly;
     width: 100%;
@@ -361,7 +363,7 @@ main {
 
 }
 
-  .areas-card-box .box {
+.areas-card-box .box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -373,7 +375,7 @@ main {
     transition: all ease 0.3s;
   }
 
-  .areas-card-box .box .imagem {
+.areas-card-box .box .imagem {
     display: flex;
     align-items:start;
     justify-content:center;
@@ -382,28 +384,28 @@ main {
     width: 100%;
   }
 
-  .areas-card-box .box img {
+.areas-card-box .box img {
     height: 45vh;
   }
 
-  .areas-card-box .box .texto {
+.areas-card-box .box .texto {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 12em;
   }
 
-  .areas-card-box .box p {
+.areas-card-box .box p {
     margin: 0.7em 1em 0;
     font-size: .9em;
     font-weight: 100;
   }
 
-  .areas-card-box .box:hover {
+.areas-card-box .box:hover {
     box-shadow: 0px 0px 20px 1px #ffbb763f;
   }
 
-  .botao{
+.botao{
     display:flex;
     align-items: center;
     justify-content: center;
@@ -411,13 +413,13 @@ main {
     margin-bottom: 10px;
   }
 
-  .buttonContainer {
+.buttonContainer {
     display: flex;
     gap: 20px;
     flex-direction: row;
   }
 
-  .acceptButton {
+.acceptButton {
     width: 90px;
     height: 30px;
     background-color: #0d4102;
@@ -431,13 +433,14 @@ main {
     transition: all .6s ease;
     }
 
-  .acceptButton:hover {
+.acceptButton:hover {
     background-color: #2a6d03;
     box-shadow: 0 10px 15px -3px #caf37e, 0 4px 6px -2px #7ef392;
     transition-duration: .2s;
     }
 
 
+    
 /*FOOTER*/
 
 footer {
